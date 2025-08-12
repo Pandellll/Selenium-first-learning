@@ -9,9 +9,10 @@ All exercises were done using **Visual Studio Code** as code editor.
 
 ### 1. `test_google.py`
 - **Description:**
-  First practice using Selenium to open Google and perfom an automated search
+  First practice using Selenium to open Google and perform an automated search
 - **Website used:**
-  [https://www.google.com]
+  [https://www.google.com](https://www.google.com)
+- **Learning goals:**
 - Learn the basics of Selenium
 - Launch an automated browser
 - Type a search query and press Enter
@@ -22,7 +23,7 @@ All exercises were done using **Visual Studio Code** as code editor.
 - **Description:**
   Second practice focusing on testing the **login** process on a dummy website
 - **Website used**
-  [https://practicetestautomation.com/practice-test-login/]
+  [https://practicetestautomation.com/practice-test-login/](https://practicetestautomation.com/practice-test-login/)
 - **Learning goals:**
   - Fill in username and password automatically
   - Click the login button
@@ -34,7 +35,7 @@ All exercises were done using **Visual Studio Code** as code editor.
 - **Description:**
   Third practice based on an e-commerce scenario to test the shopping flow.
 - **Website used:**
-  [https://www.saucedemo.com/]
+  [https://www.saucedemo.com/](https://www.saucedemo.com/)
 - **Learning Goals:**
   - Log in to the site automatically
   - Add a product to the cart
@@ -48,13 +49,13 @@ All exercises were done using **Visual Studio Code** as code editor.
 1. Clone this repository:
    ```bash
    git clone https://github.com/Pandelll/Selenium-first-learning.git
-   cd selenium-practice
+   cd Selenium-first-learning
    ```
 2. Create a virtual environment
    ```bash
    python -m venv venv
-   venv\Scripts\active  #Windows
-   source venv/bin/active # Mac/Linux
+   venv\Scripts\activate  #Windows
+   source venv/bin/activate # Mac/Linux
    ```
 3. Install all dependencies
    ```bash
@@ -77,4 +78,7 @@ python test_google.py
 - Python 3.13.3
 - Selenium
 - WebDriver Manager
+
+## Purpose
+this repository was created as part of my personal learning journey in mastering Selenium automation testing with Python. Some codes or programs may have typing errors
 
